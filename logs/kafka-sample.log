@@ -1,0 +1,110 @@
+2018-03-05 14:55:08,605 [main] INFO  b.c.c.s.d.s.a.CinqRestApplication - Starting CinqRestApplication on L-435602003 with PID 11016 (C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes started by marcel.mendonca in C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey)
+2018-03-05 14:55:08,605 [main] INFO  b.c.c.s.d.s.a.CinqRestApplication - No active profile set, falling back to default profiles: default
+2018-03-05 14:55:12,028 [localhost-startStop-1] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'config' defined in file [C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes\br\com\cinq\spring\data\sample\application\Config.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.sample.application.Config$$EnhancerBySpringCGLIB$$131ca011]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import br.com.cinq.spring.data.resource cannot be resolved
+	SampleResource cannot be resolved to a type
+
+2018-03-05 14:55:12,086 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2018-03-05 14:55:12,102 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:155)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:137)
+	at br.com.cinq.spring.data.sample.application.CinqRestApplication.main(CinqRestApplication.java:26)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:125)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:417)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:176)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152)
+	... 7 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'config' defined in file [C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes\br\com\cinq\spring\data\sample\application\Config.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.sample.application.Config$$EnhancerBySpringCGLIB$$131ca011]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import br.com.cinq.spring.data.resource cannot be resolved
+	SampleResource cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:192)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1270)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:226)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:214)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:91)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:79)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:250)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:237)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:54)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'config' defined in file [C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes\br\com\cinq\spring\data\sample\application\Config.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.sample.application.Config$$EnhancerBySpringCGLIB$$131ca011]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import br.com.cinq.spring.data.resource cannot be resolved
+	SampleResource cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.sample.application.Config$$EnhancerBySpringCGLIB$$131ca011]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import br.com.cinq.spring.data.resource cannot be resolved
+	SampleResource cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:182)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1224)
+	... 45 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import br.com.cinq.spring.data.resource cannot be resolved
+	SampleResource cannot be resolved to a type
+
+	at br.com.cinq.spring.data.sample.application.Config.<init>(Config.java:8)
+	at br.com.cinq.spring.data.sample.application.Config$$EnhancerBySpringCGLIB$$131ca011.<init>(<generated>)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:170)
+	... 47 common frames omitted
+2018-03-05 14:55:36,105 [main] INFO  b.c.c.s.d.s.a.CinqRestApplication - Starting CinqRestApplication on L-435602003 with PID 2684 (C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes started by marcel.mendonca in C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey)
+2018-03-05 14:55:36,105 [main] INFO  b.c.c.s.d.s.a.CinqRestApplication - No active profile set, falling back to default profiles: default
+2018-03-05 14:55:42,665 [main] INFO  b.c.c.s.d.s.a.CinqRestApplication - Started CinqRestApplication in 7.357 seconds (JVM running for 8.204)
+2018-03-05 17:03:33,224 [main] INFO  b.c.c.s.d.a.CinqRestApplication - Starting CinqRestApplication on L-435602003 with PID 8456 (C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes started by marcel.mendonca in C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey)
+2018-03-05 17:03:33,241 [main] INFO  b.c.c.s.d.a.CinqRestApplication - No active profile set, falling back to default profiles: default
+2018-03-05 17:03:50,853 [main] INFO  b.c.c.s.d.a.CinqRestApplication - Started CinqRestApplication in 18.921 seconds (JVM running for 20.657)
+2018-03-05 22:37:36,879 [main] INFO  b.c.c.s.d.a.CinqRestApplication - Starting CinqRestApplication on DESKTOP-P95Q8NV with PID 17412 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-05 22:37:36,881 [main] INFO  b.c.c.s.d.a.CinqRestApplication - No active profile set, falling back to default profiles: default
+2018-03-05 22:37:39,746 [main] INFO  b.c.c.s.d.a.CinqRestApplication - Started CinqRestApplication in 3.185 seconds (JVM running for 3.634)
