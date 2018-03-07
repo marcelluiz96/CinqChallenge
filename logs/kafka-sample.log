@@ -1,69 +1,475 @@
-2018-03-05 14:55:08,605 [main] INFO  b.c.c.s.d.s.a.CinqRestApplication - Starting CinqRestApplication on L-435602003 with PID 11016 (C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes started by marcel.mendonca in C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey)
-2018-03-05 14:55:08,605 [main] INFO  b.c.c.s.d.s.a.CinqRestApplication - No active profile set, falling back to default profiles: default
-2018-03-05 14:55:12,028 [localhost-startStop-1] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'config' defined in file [C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes\br\com\cinq\spring\data\sample\application\Config.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.sample.application.Config$$EnhancerBySpringCGLIB$$131ca011]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import br.com.cinq.spring.data.resource cannot be resolved
-	SampleResource cannot be resolved to a type
+2018-03-07 00:00:32,107 [Thread-6] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 00:00:32,448 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 9072 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 00:00:32,449 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 00:00:33,267 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.859 seconds (JVM running for 170.559)
+2018-03-07 00:00:43,746 [Thread-10] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 00:00:44,064 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 9072 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 00:00:44,064 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 00:00:44,815 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.783 seconds (JVM running for 182.107)
+2018-03-07 00:06:01,913 [Thread-16] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 00:06:02,192 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 9072 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 00:06:02,193 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 00:06:02,901 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.739 seconds (JVM running for 500.193)
+2018-03-07 00:07:15,930 [Thread-22] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 00:07:16,211 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 9072 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 00:07:16,211 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 00:07:16,834 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.65 seconds (JVM running for 574.126)
+2018-03-07 00:14:38,057 [Thread-28] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 00:14:38,327 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 9072 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 00:14:38,327 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 00:14:39,019 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.717 seconds (JVM running for 1016.31)
+2018-03-07 00:16:11,226 [Thread-34] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 00:16:11,536 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 9072 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 00:16:11,536 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 00:16:12,108 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.6 seconds (JVM running for 1109.4)
+2018-03-07 00:21:19,335 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 10828 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 00:21:19,338 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 00:21:23,356 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cityEndpoint': Unsatisfied dependency expressed through field 'cityService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cityService': Unsatisfied dependency expressed through field 'cityDAO'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cityDAO': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.hibernate.SessionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-03-07 00:21:23,360 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 00:21:23,597 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
 
-2018-03-05 14:55:12,086 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-2018-03-05 14:55:12,102 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:155)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
-	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:137)
-	at br.com.cinq.spring.data.sample.application.CinqRestApplication.main(CinqRestApplication.java:26)
-Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:125)
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:417)
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:176)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152)
-	... 7 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'config' defined in file [C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes\br\com\cinq\spring\data\sample\application\Config.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.sample.application.Config$$EnhancerBySpringCGLIB$$131ca011]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import br.com.cinq.spring.data.resource cannot be resolved
-	SampleResource cannot be resolved to a type
+***************************
+APPLICATION FAILED TO START
+***************************
 
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:192)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1270)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+Description:
+
+Field sessionFactory in br.com.cinq.spring.data.repository.CityDAO required a bean of type 'org.hibernate.SessionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.hibernate.SessionFactory' in your configuration.
+
+2018-03-07 00:31:29,522 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 18172 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 00:31:29,526 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 00:31:34,795 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 5.571 seconds (JVM running for 6.145)
+2018-03-07 00:32:19,304 [Thread-6] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 00:32:19,647 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 18172 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 00:32:19,647 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 00:32:20,975 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 1.379 seconds (JVM running for 52.325)
+2018-03-07 01:19:58,725 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 19924 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:19:58,727 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:20:03,176 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 4.702 seconds (JVM running for 5.188)
+2018-03-07 01:21:07,411 [Thread-6] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:21:07,693 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 19924 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:21:07,693 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:21:08,561 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.906 seconds (JVM running for 70.574)
+2018-03-07 01:21:10,937 [Thread-10] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:21:11,237 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 19924 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:21:11,238 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:21:12,015 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.812 seconds (JVM running for 74.028)
+2018-03-07 01:21:33,040 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 16096 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:21:33,043 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:21:38,725 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 5.989 seconds (JVM running for 6.657)
+2018-03-07 01:22:27,467 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 19460 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:22:27,470 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:22:33,117 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 6.022 seconds (JVM running for 6.68)
+2018-03-07 01:24:41,291 [Thread-6] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:24:41,609 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 19460 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:24:41,609 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:24:43,036 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 1.466 seconds (JVM running for 136.599)
+2018-03-07 01:32:18,450 [Thread-10] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:32:18,815 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 19460 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:32:18,816 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:32:20,060 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 1.284 seconds (JVM running for 593.623)
+2018-03-07 01:36:26,372 [Thread-16] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:36:26,766 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 19460 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:36:26,767 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:36:27,911 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 1.183 seconds (JVM running for 841.474)
+2018-03-07 01:37:34,070 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:37:34,072 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:37:38,626 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 4.817 seconds (JVM running for 5.304)
+2018-03-07 01:38:15,278 [Thread-6] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:38:15,581 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:38:15,582 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:38:16,428 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.887 seconds (JVM running for 43.107)
+2018-03-07 01:38:20,404 [http-nio-8090-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [org.glassfish.jersey.server.ContainerException: java.lang.Error: Unresolved compilation problem: 
+	The method findByCountryNameContaining(String) is undefined for the type CityRepository
+] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	The method findByCountryNameContaining(String) is undefined for the type CityRepository
+
+	at br.com.cinq.spring.data.endpoint.CityEndpoint.listCities(CityEndpoint.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-03-07 01:38:32,911 [Thread-10] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:38:33,188 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:38:33,189 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:38:34,009 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.861 seconds (JVM running for 60.688)
+2018-03-07 01:38:42,443 [Thread-16] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:38:42,684 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:38:42,684 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:38:43,424 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.767 seconds (JVM running for 70.103)
+2018-03-07 01:38:47,227 [http-nio-8090-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [org.glassfish.jersey.server.ContainerException: java.lang.Error: Unresolved compilation problem: 
+	The method findByCountryNameContaining(String) is undefined for the type CityRepository
+] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	The method findByCountryNameContaining(String) is undefined for the type CityRepository
+
+	at br.com.cinq.spring.data.endpoint.CityEndpoint.listCities(CityEndpoint.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-03-07 01:38:48,411 [http-nio-8090-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [org.glassfish.jersey.server.ContainerException: java.lang.Error: Unresolved compilation problem: 
+	The method findByCountryNameContaining(String) is undefined for the type CityRepository
+] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	The method findByCountryNameContaining(String) is undefined for the type CityRepository
+
+	at br.com.cinq.spring.data.endpoint.CityEndpoint.listCities(CityEndpoint.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-03-07 01:39:19,124 [Thread-22] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:39:19,385 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:39:19,385 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:39:20,039 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.682 seconds (JVM running for 106.718)
+2018-03-07 01:39:26,470 [Thread-28] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:39:26,704 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:39:26,704 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:39:27,370 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.692 seconds (JVM running for 114.049)
+2018-03-07 01:39:46,934 [Thread-34] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:39:47,295 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:39:47,295 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:39:47,868 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.601 seconds (JVM running for 134.547)
+2018-03-07 01:40:07,452 [Thread-40] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:40:07,703 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:40:07,703 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:40:08,313 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.634 seconds (JVM running for 154.992)
+2018-03-07 01:40:53,107 [Thread-46] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:40:53,500 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:40:53,501 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:40:54,027 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.55 seconds (JVM running for 200.706)
+2018-03-07 01:41:19,647 [Thread-52] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:41:19,941 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:41:19,941 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:41:20,467 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.55 seconds (JVM running for 227.147)
+2018-03-07 01:41:23,887 [Thread-58] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:41:24,157 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:41:24,157 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:41:24,675 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.541 seconds (JVM running for 231.354)
+2018-03-07 01:43:20,085 [Thread-64] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:43:20,308 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:43:20,308 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:43:20,844 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.559 seconds (JVM running for 347.524)
+2018-03-07 01:44:04,667 [Thread-70] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:44:04,999 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:44:04,999 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:44:05,484 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.511 seconds (JVM running for 392.163)
+2018-03-07 01:44:21,038 [Thread-76] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:44:21,307 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:44:21,307 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:44:21,795 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.51 seconds (JVM running for 408.475)
+2018-03-07 01:44:42,398 [Thread-82] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:44:42,702 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:44:42,702 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:44:43,188 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.511 seconds (JVM running for 429.867)
+2018-03-07 01:44:49,642 [Thread-88] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:44:49,942 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:44:49,942 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:44:50,472 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.554 seconds (JVM running for 437.151)
+2018-03-07 01:45:57,417 [Thread-94] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:45:57,772 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:45:57,772 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:45:58,280 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.532 seconds (JVM running for 504.959)
+2018-03-07 01:47:25,214 [Thread-100] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:47:25,532 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:47:25,533 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:47:26,029 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.523 seconds (JVM running for 592.708)
+2018-03-07 01:47:59,681 [Thread-106] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:47:59,967 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:47:59,967 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:48:00,467 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.521 seconds (JVM running for 627.146)
+2018-03-07 01:48:07,941 [Thread-112] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:48:08,208 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:48:08,208 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:48:08,678 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.491 seconds (JVM running for 635.357)
+2018-03-07 01:48:12,106 [Thread-118] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:48:12,351 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:48:12,351 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:48:12,817 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.487 seconds (JVM running for 639.496)
+2018-03-07 01:49:45,853 [Thread-124] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:49:46,079 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:49:46,079 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:49:46,581 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.523 seconds (JVM running for 733.26)
+2018-03-07 01:50:12,197 [Thread-130] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:50:12,504 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:50:12,505 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:50:12,873 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'countryRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List br.com.cinq.spring.data.repository.CountryRepository.findNameIgnoreCaseContaining(java.lang.String)! No property findName found for type Country!
+2018-03-07 01:50:12,874 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:50:12,881 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'countryRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List br.com.cinq.spring.data.repository.CountryRepository.findNameIgnoreCaseContaining(java.lang.String)! No property findName found for type Country!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:368)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:226)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:214)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:91)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:79)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:250)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:237)
-	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:54)
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'config' defined in file [C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes\br\com\cinq\spring\data\sample\application\Config.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.sample.application.Config$$EnhancerBySpringCGLIB$$131ca011]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import br.com.cinq.spring.data.resource cannot be resolved
-	SampleResource cannot be resolved to a type
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at br.com.cinq.spring.data.application.Application.main(Application.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List br.com.cinq.spring.data.repository.CountryRepository.findNameIgnoreCaseContaining(java.lang.String)! No property findName found for type Country!
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:82)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:208)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:553)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:546)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Iterator.forEachRemaining(Unknown Source)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Unknown Source)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:548)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:538)
+	at java.util.Optional.map(Unknown Source)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:538)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:317)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$3(RepositoryFactoryBeanSupport.java:287)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:141)
+	at org.springframework.data.util.Lazy.get(Lazy.java:63)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:290)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 21 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property findName found for type Country!
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:350)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:330)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:283)
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(Unknown Source)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:265)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:248)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:380)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:381)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:93)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:76)
+	... 47 common frames omitted
+2018-03-07 01:50:27,466 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:50:27,467 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:50:27,950 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.524 seconds (JVM running for 774.629)
+2018-03-07 01:54:33,287 [Thread-136] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:54:33,632 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 01:54:33,632 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 01:54:33,995 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityEndpoint' defined in file [C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes\br\com\cinq\spring\data\endpoint\CityEndpoint.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.endpoint.CityEndpoint]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+2018-03-07 01:54:33,996 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 01:54:34,002 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityEndpoint' defined in file [C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes\br\com\cinq\spring\data\endpoint\CityEndpoint.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.endpoint.CityEndpoint]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
 
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1232)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1131)
@@ -73,38 +479,249 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
-	... 33 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.sample.application.Config$$EnhancerBySpringCGLIB$$131ca011]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import br.com.cinq.spring.data.resource cannot be resolved
-	SampleResource cannot be resolved to a type
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at br.com.cinq.spring.data.application.Application.main(Application.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.endpoint.CityEndpoint]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
 
 	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:182)
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1224)
-	... 45 common frames omitted
+	... 22 common frames omitted
 Caused by: java.lang.Error: Unresolved compilation problems: 
-	The import br.com.cinq.spring.data.resource cannot be resolved
-	SampleResource cannot be resolved to a type
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
 
-	at br.com.cinq.spring.data.sample.application.Config.<init>(Config.java:8)
-	at br.com.cinq.spring.data.sample.application.Config$$EnhancerBySpringCGLIB$$131ca011.<init>(<generated>)
+	at br.com.cinq.spring.data.endpoint.CityEndpoint.<init>(CityEndpoint.java:66)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:170)
-	... 47 common frames omitted
-2018-03-05 14:55:36,105 [main] INFO  b.c.c.s.d.s.a.CinqRestApplication - Starting CinqRestApplication on L-435602003 with PID 2684 (C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes started by marcel.mendonca in C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey)
-2018-03-05 14:55:36,105 [main] INFO  b.c.c.s.d.s.a.CinqRestApplication - No active profile set, falling back to default profiles: default
-2018-03-05 14:55:42,665 [main] INFO  b.c.c.s.d.s.a.CinqRestApplication - Started CinqRestApplication in 7.357 seconds (JVM running for 8.204)
-2018-03-05 17:03:33,224 [main] INFO  b.c.c.s.d.a.CinqRestApplication - Starting CinqRestApplication on L-435602003 with PID 8456 (C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey\target\classes started by marcel.mendonca in C:\Users\adminlocal\eclipse-workspace\spring-jpa-jersey)
-2018-03-05 17:03:33,241 [main] INFO  b.c.c.s.d.a.CinqRestApplication - No active profile set, falling back to default profiles: default
-2018-03-05 17:03:50,853 [main] INFO  b.c.c.s.d.a.CinqRestApplication - Started CinqRestApplication in 18.921 seconds (JVM running for 20.657)
-2018-03-05 22:37:36,879 [main] INFO  b.c.c.s.d.a.CinqRestApplication - Starting CinqRestApplication on DESKTOP-P95Q8NV with PID 17412 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
-2018-03-05 22:37:36,881 [main] INFO  b.c.c.s.d.a.CinqRestApplication - No active profile set, falling back to default profiles: default
-2018-03-05 22:37:39,746 [main] INFO  b.c.c.s.d.a.CinqRestApplication - Started CinqRestApplication in 3.185 seconds (JVM running for 3.634)
+	... 24 common frames omitted
+2018-03-07 02:01:14,671 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:01:14,671 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:01:14,991 [localhost-startStop-1] WARN  o.glassfish.jersey.internal.Errors - The following warnings have been detected: WARNING: The (sub)resource method ingestAndInsertCities in br.com.cinq.spring.data.endpoint.CityEndpoint contains empty path annotation.
+
+2018-03-07 02:01:15,157 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.544 seconds (JVM running for 1421.837)
+2018-03-07 02:01:22,602 [Thread-145] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:01:22,919 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:01:22,920 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:01:23,389 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.49 seconds (JVM running for 1430.068)
+2018-03-07 02:02:56,569 [Thread-154] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:02:56,833 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:02:56,833 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:02:57,333 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.521 seconds (JVM running for 1524.012)
+2018-03-07 02:03:16,875 [Thread-160] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:03:17,135 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:03:17,135 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:03:17,652 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.538 seconds (JVM running for 1544.331)
+2018-03-07 02:03:28,142 [Thread-166] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:03:28,466 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:03:28,466 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:03:28,808 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityEndpoint' defined in file [C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes\br\com\cinq\spring\data\endpoint\CityEndpoint.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.endpoint.CityEndpoint]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+	Syntax error on token "}", delete this token
+
+2018-03-07 02:03:28,809 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:03:28,813 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityEndpoint' defined in file [C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes\br\com\cinq\spring\data\endpoint\CityEndpoint.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.endpoint.CityEndpoint]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at br.com.cinq.spring.data.application.Application.main(Application.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.cinq.spring.data.endpoint.CityEndpoint]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:182)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1224)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+	Syntax error on token "}", delete this token
+
+	at br.com.cinq.spring.data.endpoint.CityEndpoint.<init>(CityEndpoint.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:170)
+	... 24 common frames omitted
+2018-03-07 02:03:38,371 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:03:38,372 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:03:38,856 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.531 seconds (JVM running for 1565.535)
+2018-03-07 02:03:58,442 [Thread-172] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:03:58,705 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:03:58,705 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:03:59,198 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.515 seconds (JVM running for 1585.878)
+2018-03-07 02:04:25,811 [Thread-181] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:04:26,008 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:04:26,008 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:04:26,464 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.476 seconds (JVM running for 1613.144)
+2018-03-07 02:04:43,000 [Thread-187] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:04:43,290 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:04:43,290 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:04:43,744 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.473 seconds (JVM running for 1630.422)
+2018-03-07 02:04:48,176 [Thread-193] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:04:48,443 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:04:48,443 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:04:48,930 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.508 seconds (JVM running for 1635.609)
+2018-03-07 02:05:30,699 [Thread-199] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:05:30,888 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:05:30,889 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:05:31,340 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.473 seconds (JVM running for 1678.019)
+2018-03-07 02:06:17,022 [Thread-205] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:06:17,318 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:06:17,318 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:06:17,823 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.526 seconds (JVM running for 1724.503)
+2018-03-07 02:06:38,344 [Thread-211] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:06:38,520 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:06:38,520 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:06:39,023 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.526 seconds (JVM running for 1745.702)
+2018-03-07 02:07:07,611 [Thread-217] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:07:07,778 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 8432 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:07:07,778 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:07:08,262 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 0.505 seconds (JVM running for 1774.941)
+2018-03-07 02:13:41,138 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 12532 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:13:41,141 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:13:47,446 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 6.64 seconds (JVM running for 7.303)
+2018-03-07 02:15:01,034 [ForkJoinPool.commonPool-worker-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 90036, SQLState: 90036
+2018-03-07 02:15:01,034 [ForkJoinPool.commonPool-worker-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+call next value for hibernate_sequence [90036-196]
+2018-03-07 02:15:01,050 [http-nio-8090-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 90036, SQLState: 90036
+2018-03-07 02:15:01,054 [http-nio-8090-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+call next value for hibernate_sequence [90036-196]
+2018-03-07 02:15:04,275 [http-nio-8090-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [org.springframework.orm.jpa.JpaSystemException: could not prepare statement; nested exception is org.hibernate.exception.GenericJDBCException: could not prepare statement] with root cause
+org.h2.jdbc.JdbcSQLException: Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+call next value for hibernate_sequence [90036-196]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.command.Parser.readSequence(Parser.java:5602)
+	at org.h2.command.Parser.readTerm(Parser.java:2891)
+	at org.h2.command.Parser.readFactor(Parser.java:2390)
+	at org.h2.command.Parser.readSum(Parser.java:2377)
+	at org.h2.command.Parser.readConcat(Parser.java:2347)
+	at org.h2.command.Parser.readCondition(Parser.java:2178)
+	at org.h2.command.Parser.readAnd(Parser.java:2150)
+	at org.h2.command.Parser.readExpression(Parser.java:2142)
+	at org.h2.command.Parser.parseCall(Parser.java:4592)
+	at org.h2.command.Parser.parsePrepared(Parser.java:368)
+	at org.h2.command.Parser.parse(Parser.java:321)
+	at org.h2.command.Parser.parse(Parser.java:293)
+	at org.h2.command.Parser.prepareCommand(Parser.java:258)
+	at org.h2.engine.Session.prepareLocal(Session.java:578)
+	at org.h2.engine.Session.prepareCommand(Session.java:519)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:73)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:318)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$1.doPrepare(StatementPreparerImpl.java:87)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:172)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:72)
+	at org.hibernate.id.enhanced.SequenceStructure$1.getNextValue(SequenceStructure.java:93)
+	at org.hibernate.id.enhanced.NoopOptimizer.generate(NoopOptimizer.java:40)
+	at org.hibernate.id.enhanced.SequenceStyleGenerator.generate(SequenceStyleGenerator.java:452)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:105)
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:67)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:189)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:132)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:58)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:782)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:767)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:304)
+	at com.sun.proxy.$Proxy116.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:490)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:629)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:593)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:578)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy118.save(Unknown Source)
+	at br.com.cinq.spring.data.endpoint.CityEndpoint.lambda$0(CityEndpoint.java:74)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachTask.compute(Unknown Source)
+	at java.util.concurrent.CountedCompleter.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2018-03-07 02:17:11,731 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 14764 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:17:11,734 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:17:17,419 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 6.014 seconds (JVM running for 6.697)
+2018-03-07 02:18:54,357 [Thread-6] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:18:54,704 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 14764 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:18:54,704 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:18:56,094 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 1.446 seconds (JVM running for 105.372)
+2018-03-07 02:19:09,423 [Thread-10] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-07 02:19:09,737 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 14764 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 02:19:09,737 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default

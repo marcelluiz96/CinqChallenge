@@ -5,15 +5,16 @@ import javax.ws.rs.ApplicationPath;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
-import br.com.cinq.spring.data.controller.CityController;
+import br.com.cinq.spring.data.endpoint.CityEndpoint;
 
-@Configuration
+@Component
 @ApplicationPath("rest")
 public class JerseyConfiguration extends ResourceConfig{
 
 	@PostConstruct
 	public void setUp() {
-		register(CityController.class);
+		register(CityEndpoint.class);
 	}
 }
