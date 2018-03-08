@@ -33,7 +33,7 @@ public class CityEndpoint {
 	@Path("/{cityid}")
 	public Response findCityById(@PathParam("cityid") int cityId) {
 		Optional<City> requestedCity = cityRepository.findById(cityId);
-		
+
 		if (requestedCity.isPresent())
 			return Response.ok(requestedCity.get()).build();
 		else
@@ -49,33 +49,38 @@ public class CityEndpoint {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response listCities(@QueryParam("country") String countryName) {
-		
+
 		if (countryName == null || countryName.isEmpty()) { 
 			List<City> allCities = cityRepository.findAll();
 			return Response
 					.ok(allCities)
 					.build();
 		} else { 
-			List<City> citiesSearchResult = cityRepository.findByCountryNameIgnoreCaseContaining(countryName);
+			List<City> citiesSearchResult = cityRepository
+					.findByCountryNameIgnoreCaseContaining(countryName);
 			return Response
 					.ok(citiesSearchResult)
 					.build();
 		}
 	}
-	
+
 	@POST
 	@Consumes({MediaType.APPLICATION_JSON})
-	@Produces(MediaType.TEXT_PLAIN)
 	@Transactional
 	@Path("/insertCities")
 	public Response ingestAndInsertCities(List<City> cities) {
-		
-		cities.stream()
-			.parallel() 								 
+
+		// Presenting an example of looping with Streams. 
+		// saveAll would most likely perform bulk saving faster
+		try {
+			cities.stream()								 
 			.forEach(city -> cityRepository.save(city));
-		cityRepository.flush();
-		
-		return Response.ok("All insertions were completed").build();
+			cityRepository.flush();
+
+			return Response.status(Status.CREATED).build();
+		} catch (Exception exc) {
+			return Response.status(Status.INTERNAL_SERVER_ERROR).build();
+		}
 	}
-	
+
 }

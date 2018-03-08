@@ -729,3 +729,9 @@ call next value for hibernate_sequence [90036-196]
 2018-03-07 20:54:24,856 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 11632 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
 2018-03-07 20:54:24,859 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
 2018-03-07 20:54:29,830 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 5.341 seconds (JVM running for 5.908)
+2018-03-08 13:50:24,776 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on L-435602003 with PID 19588 (C:\Users\adminlocal\git\CinqChallenge\target\classes started by marcel.mendonca in C:\Users\adminlocal\git\CinqChallenge)
+2018-03-08 13:50:24,808 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-08 13:50:41,102 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 17.823 seconds (JVM running for 20.146)
+2018-03-08 14:12:12,069 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on L-435602003 with PID 17152 (C:\Users\adminlocal\git\CinqChallenge\target\classes started by marcel.mendonca in C:\Users\adminlocal\git\CinqChallenge)
+2018-03-08 14:12:12,073 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-08 14:12:26,636 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 15.58 seconds (JVM running for 17.556)
