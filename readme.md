@@ -8,7 +8,8 @@ Important:
 
 The project has exactly what it needs to function. As such, it should be enough to evaluate the quality of the implementation
 Here's what could be improved, though:
-- A .gitignore file
+- Detailed Javadocs
+- Moving the .gitignore file to the project's root, and ensuring it's properly configured
 - Endpoint implementation of the remaining CRUD Operations on both City and Country entities
 - Proper integration testing in a different build phase
 - Mock providers for data reusability among tests
