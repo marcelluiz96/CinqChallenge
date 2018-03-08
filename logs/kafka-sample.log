@@ -725,3 +725,7 @@ call next value for hibernate_sequence [90036-196]
 2018-03-07 02:19:09,423 [Thread-10] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
 2018-03-07 02:19:09,737 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 14764 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
 2018-03-07 02:19:09,737 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 02:19:11,079 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 1.403 seconds (JVM running for 120.358)
+2018-03-07 20:54:24,856 [restartedMain] INFO  b.c.c.s.d.application.Application - Starting Application on DESKTOP-P95Q8NV with PID 11632 (C:\Users\Marcel\Documents\spring-jpa-jersey\target\classes started by Marcel in C:\Users\Marcel\Documents\spring-jpa-jersey)
+2018-03-07 20:54:24,859 [restartedMain] INFO  b.c.c.s.d.application.Application - No active profile set, falling back to default profiles: default
+2018-03-07 20:54:29,830 [restartedMain] INFO  b.c.c.s.d.application.Application - Started Application in 5.341 seconds (JVM running for 5.908)
